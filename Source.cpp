@@ -11,6 +11,13 @@ bool isPrime(int n) {
 	return true;
 }
 
+template <class T>
+void mySwap(T& a, T& b) {
+	T temp = a;
+	a = b;
+	b = temp;
+}
+
 int main() {
 	int x = 7, y = 10;
 	bool flag = x > 5 && (y < 9 || y == 10);
